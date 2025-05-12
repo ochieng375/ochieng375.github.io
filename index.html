@@ -94,76 +94,103 @@
             </div>
         </section>
 
-        <section id="projects" class="projects-section">
-            <h2>My Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                   
-                    <h3>Job Portal System</h3>
-                    <p>A comprehensive web-based platform connecting job seekers and employers, facilitating job postings, real-time chat, and resume validation.</p>
-                    <p class="technologies">**Key Technologies:** PHP, MySQL, HTML, CSS</p>
-                    <div class="project-links">
-                        <a href="#" class="btn project-btn" target="_blank">View Live Demo <i class="fas fa-external-link-alt"></i></a>
-                        <a href="#" class="btn project-btn" target="_blank">GitHub Repo <i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-                <div class="project-card">
-                  
-                    <h3>Customer Relationship Management (CRM) System</h3>
-                    <p>A robust tool designed for businesses to efficiently manage customer data, track interactions, and enhance engagement.</p>
-                    <p class="technologies">**Key Technologies:** PHP, MySQL, HTML, CSS</p>
-                    <div class="project-links">
-                        <a href="#" class="btn project-btn" target="_blank">View Live Demo <i class="fas fa-external-link-alt"></i></a>
-                        <a href="#" class="btn project-btn" target="_blank">GitHub Repo <i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    
-                    <h3>Billing System</h3>
-                    <p>An intuitive invoicing system for generating, managing, and tracking customer payments, streamlining financial operations for businesses.</p>
-                    <p class="technologies">**Key Technologies:** PHP, MySQL, HTML, CSS</p>
-                    <div class="project-links">
-                        <a href="#" class="btn project-btn" target="_blank">View Live Demo <i class="fas fa-external-link-alt"></i></a>
-                        <a href="#" class="btn project-btn" target="_blank">GitHub Repo <i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-                </div>
-        </section>
+        <head>
+  <!-- Keep your current meta and links here -->
+  <style>
+    .section-container {
+        padding: 60px 20px;
+        max-width: 1200px;
+        margin: auto;
+    }
 
-        <section id="experience" class="experience-section">
-            <h2>Work Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>ICT Intern / Technical Assistant</h3>
-                        <h4>Africa Nazarene University</h4>
-                        <span class="duration">2022 – 2024</span>
-                        <ul>
-                            <li>Provided direct technical support and assistance to university users, resolving diverse IT issues.</li>
-                            <li>Performed software and hardware installation, configuration, and routine maintenance for various systems.</li>
-                            <li>Conducted network troubleshooting and maintained comprehensive network documentation to ensure system stability.</li>
-                            <li>Supported the operational functionality and accessibility of online university systems and services.</li>
-                            <li>Contributed to the accuracy of asset inventory records and the development of procedural manuals.</li>
-                        </ul>
-                    </div>
-                </div>
-                </div>
-        </section>
+    .card-box {
+        background: #ffffff;
+        padding: 25px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        text-align: left;
+    }
 
-        <section id="education" class="education-section">
-            <h2>Education</h2>
-            <div class="edu-item">
-                <h3>BSc. Computer Science</h3>
-                <h4>Rongo University</h4>
-                <span class="duration">2021 –2025</span>
-            </div>
-            <div class="edu-item">
-                <h3>Kenya Certificate of Secondary Education (KCSE)</h3>
-                <h4>Onjiko Boys High School</h4>
-                <span class="duration">2017 – 2021</span>
-            </div>
-        </section>
+    .card-box h3 {
+        color: #007bff;
+        margin-top: 0;
+    }
+
+    .section-title {
+        text-align: center;
+        font-size: 2.5rem;
+        color: #343a40;
+        margin-bottom: 40px;
+    }
+
+    .technologies {
+        font-style: italic;
+        color: #6c757d;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Replace your current Projects section with this -->
+  <section id="projects" class="section-container">
+    <h2 class="section-title">My Projects</h2>
+    
+    <div class="card-box">
+      <h3>Job Portal System</h3>
+      <p>A web platform connecting job seekers and employers, with job posting, real-time chat, and resume validation.</p>
+      <p class="technologies">Technologies: PHP, MySQL, HTML, CSS</p>
+    </div>
+
+    <div class="card-box">
+      <h3>CRM System</h3>
+      <p>A customer relationship system to manage customer data, interaction tracking, and user engagement.</p>
+      <p class="technologies">Technologies: PHP, MySQL, HTML, CSS</p>
+    </div>
+
+    <div class="card-box">
+      <h3>Billing System</h3>
+      <p>A billing platform for generating invoices, managing transactions, and tracking payments for businesses.</p>
+      <p class="technologies">Technologies: PHP, MySQL, HTML, CSS</p>
+    </div>
+  </section>
+
+  <!-- Replace your Work Experience section with this -->
+  <section id="experience" class="section-container">
+    <h2 class="section-title">Work Experience</h2>
+    
+    <div class="card-box">
+      <h3>Technical Assistant</h3>
+      <h4 style="margin: 5px 0;">Africa Nazarene University</h4>
+      <span style="color: #6c757d;">2022 – 2024</span>
+      <ul>
+        <li>Provided technical support and resolved IT issues for university users.</li>
+        <li>Handled software/hardware installation, maintenance, and configuration.</li>
+        <li>Supported network troubleshooting and maintained system documentation.</li>
+        <li>Ensured accessibility and functionality of online university systems.</li>
+        <li>Contributed to asset inventory tracking and documentation development.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Replace your Education section with this -->
+  <section id="education" class="section-container">
+    <h2 class="section-title">Education</h2>
+    
+    <div class="card-box">
+      <h3>BSc. Computer Science</h3>
+      <h4 style="margin: 5px 0;">Rongo University</h4>
+      <span style="color: #6c757d;">2021 – 2025</span>
+    </div>
+
+    <div class="card-box">
+      <h3>Kenya Certificate of Secondary Education (KCSE)</h3>
+      <h4 style="margin: 5px 0;">Onjiko Boys High School</h4>
+      <span style="color: #6c757d;">2017 – 2021</span>
+    </div>
+  </section>
+</body>
+
 
         <section id="contact" class="contact-section">
             <h2>Get in Touch</h2>
