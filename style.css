@@ -683,6 +683,8 @@ footer p {
 
     .projects-grid {
         grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+
+        
     }
 
     .timeline::before {
@@ -827,5 +829,22 @@ footer p {
     .burger-menu {
         display: block;
     }
+/* For the hero image */
+.hero-image img,
+.about-photo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover; /* Keeps proportions but crops if needed */
+}
+
+/* Optional: constrain the size for layout consistency */
+.hero-image,
+.about-photo {
+    max-width: 300px;
+    margin: auto;
+}
+
 }
 */
